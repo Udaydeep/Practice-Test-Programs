@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginTests" duration-ms="45756" started-at="2015-04-11T07:41:15Z" finished-at="2015-04-11T07:42:00Z">
+    <groups>
+      <group name="p1">
+        <method signature="Login_Tests.loadPage()[pri:0, instance:com.facebook.tests.Login_Tests@256216b3]" name="loadPage" class="com.facebook.tests.Login_Tests"/>
+        <method signature="Login_Tests.loadPage()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="loadPage" class="com.facebook.tests.Login_Tests"/>
+      </group> <!-- p1 -->
+      <group name="p2">
+        <method signature="Login_Tests.emailID()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="emailID" class="com.facebook.tests.Login_Tests"/>
+        <method signature="Login_Tests.passwordTokens()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="passwordTokens" class="com.facebook.tests.Login_Tests"/>
+      </group> <!-- p2 -->
+      <group name="SecondGroup">
+        <method signature="Login_Tests.emailID()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="emailID" class="com.facebook.tests.Login_Tests"/>
+        <method signature="Login_Tests.passwordTokens()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="passwordTokens" class="com.facebook.tests.Login_Tests"/>
+      </group> <!-- SecondGroup -->
+      <group name="FirstGroup">
+        <method signature="Login_Tests.loadPage()[pri:0, instance:com.facebook.tests.Login_Tests@256216b3]" name="loadPage" class="com.facebook.tests.Login_Tests"/>
+        <method signature="Login_Tests.loadPage()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="loadPage" class="com.facebook.tests.Login_Tests"/>
+      </group> <!-- FirstGroup -->
+    </groups>
+    <test name="P1 Tests" duration-ms="31023" started-at="2015-04-11T07:41:15Z" finished-at="2015-04-11T07:41:46Z">
+      <class name="com.facebook.tests.Login_Tests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.facebook.tests.Login_Tests@256216b3]" name="SetUp" is-config="true" duration-ms="24663" started-at="2015-04-11T00:41:15Z" finished-at="2015-04-11T00:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="loadPage()[pri:0, instance:com.facebook.tests.Login_Tests@256216b3]" name="loadPage" duration-ms="5781" started-at="2015-04-11T00:41:39Z" finished-at="2015-04-11T00:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.facebook.tests.Login_Tests@256216b3]" name="TearDown" is-config="true" duration-ms="548" started-at="2015-04-11T00:41:45Z" finished-at="2015-04-11T00:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.facebook.tests.Login_Tests -->
+    </test> <!-- P1 Tests -->
+    <test name="P2 Tests" duration-ms="14491" started-at="2015-04-11T07:41:46Z" finished-at="2015-04-11T07:42:00Z">
+      <class name="com.facebook.tests.Login_Tests">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="SetUp" is-config="true" duration-ms="9507" started-at="2015-04-11T00:41:46Z" finished-at="2015-04-11T00:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="loadPage()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="loadPage" duration-ms="3290" started-at="2015-04-11T00:41:55Z" finished-at="2015-04-11T00:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="emailID()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="emailID" duration-ms="858" started-at="2015-04-11T00:41:59Z" depends-on-methods="com.facebook.tests.Login_Tests.loadPage" finished-at="2015-04-11T00:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailID -->
+        <test-method status="PASS" signature="passwordTokens()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="passwordTokens" duration-ms="471" started-at="2015-04-11T00:42:00Z" depends-on-methods="com.facebook.tests.Login_Tests.emailID" finished-at="2015-04-11T00:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordTokens -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.facebook.tests.Login_Tests@7c75222b]" name="TearDown" is-config="true" duration-ms="347" started-at="2015-04-11T00:42:00Z" finished-at="2015-04-11T00:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.facebook.tests.Login_Tests -->
+    </test> <!-- P2 Tests -->
+  </suite> <!-- LoginTests -->
+</testng-results>
