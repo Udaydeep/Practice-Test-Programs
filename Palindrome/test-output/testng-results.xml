@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="PalindromeTests" duration-ms="160" started-at="2015-04-21T03:22:26Z" finished-at="2015-04-21T03:22:27Z">
+    <groups>
+    </groups>
+    <test name="TestCases" duration-ms="160" started-at="2015-04-21T03:22:26Z" finished-at="2015-04-21T03:22:27Z">
+      <class name="Palindrome">
+        <test-method status="PASS" signature="negativeTestPalindrome1()[pri:0, instance:Palindrome@6fffcba5]" name="negativeTestPalindrome1" duration-ms="60" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestPalindrome1 -->
+        <test-method status="PASS" signature="negativeTestPalindrome2()[pri:0, instance:Palindrome@6fffcba5]" name="negativeTestPalindrome2" duration-ms="2" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestPalindrome2 -->
+        <test-method status="PASS" signature="negativeTestPalindrome3()[pri:0, instance:Palindrome@6fffcba5]" name="negativeTestPalindrome3" duration-ms="3" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestPalindrome3 -->
+        <test-method status="PASS" signature="negativeTestPalindrome4()[pri:0, instance:Palindrome@6fffcba5]" name="negativeTestPalindrome4" duration-ms="2" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestPalindrome4 -->
+        <test-method status="PASS" signature="negativeTestPalindrome6()[pri:0, instance:Palindrome@6fffcba5]" name="negativeTestPalindrome6" duration-ms="2" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeTestPalindrome6 -->
+        <test-method status="PASS" signature="positiveTestPalindrome1()[pri:0, instance:Palindrome@6fffcba5]" name="positiveTestPalindrome1" duration-ms="2" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTestPalindrome1 -->
+        <test-method status="PASS" signature="positiveTestPalindrome2()[pri:0, instance:Palindrome@6fffcba5]" name="positiveTestPalindrome2" duration-ms="1" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTestPalindrome2 -->
+        <test-method status="PASS" signature="positiveTestPalindrome3()[pri:0, instance:Palindrome@6fffcba5]" name="positiveTestPalindrome3" duration-ms="2" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTestPalindrome3 -->
+        <test-method status="PASS" signature="positiveTestPalindrome5()[pri:0, instance:Palindrome@6fffcba5]" name="positiveTestPalindrome5" duration-ms="2" started-at="2015-04-20T20:22:27Z" finished-at="2015-04-20T20:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveTestPalindrome5 -->
+      </class> <!-- Palindrome -->
+    </test> <!-- TestCases -->
+  </suite> <!-- PalindromeTests -->
+</testng-results>
