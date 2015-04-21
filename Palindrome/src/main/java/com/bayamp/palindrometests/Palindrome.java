@@ -1,3 +1,4 @@
+package com.bayamp.palindrometests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -143,6 +144,8 @@ public class Palindrome {
 		Assert.assertEquals(actualResult, expectedResult);
 
 	}
+	
+	// Method returns true if input string passed is palindrome else return false
 
 	public static boolean checkPalindrome(String inputString) {
 
@@ -151,7 +154,6 @@ public class Palindrome {
 		else {
 			inputString = inputString.replaceAll("[^a-zA-Z]+", "")
 					.toLowerCase();
-			System.out.println(inputString);
 			int length = inputString.length();
 			for (int i = 0; i < length / 2; i++) {
 				if (inputString.charAt(i) != inputString.charAt(length - i - 1))

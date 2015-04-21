@@ -4,7 +4,7 @@
 <test name="TestCases">
 
 <classes>
-<class name="Palindrome"/>
+<class name="com.bayamp.palindrometests.Palindrome"/>
 </classes>
 
 </test>
